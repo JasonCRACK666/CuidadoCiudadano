@@ -1,0 +1,152 @@
+@media screen and (max-width: 1400px) {
+  .container main .block2 .content2 {
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(2, 250px);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  /* LAYOUT */
+  .container header .conTitle h1 {
+    font-size: 3em;
+  }
+
+  .container header .conTitle h2 {
+    font-size: 1.5em;
+  }
+
+  /* BLOCK 1 */
+  .container main .block1 .title {
+    font-size: 2.5rem;
+  }
+
+  .container main .block1 .content1 .card {
+    width: 370px;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .container main .block1 .content1 .card .cardBody h4 {
+    font-size: 1.2rem;
+  }
+
+  .container main .block1 .content1 .card img {
+    width: 280px;
+    height: 180px;
+  }
+
+  /* BLOCK 2 */
+  .container main .block2 .content2 {
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 200px);
+  }
+
+  .container main .block2 .content2 .card {
+    width: 300px;
+    height: 200px;
+  }
+
+  .container main .block2 .content2 .card h4 {
+    font-size: 1rem;
+    width: 280px;
+  }
+
+  .container main .block2 .content2 .card p {
+    font-size: 11px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .container header .conTitle {
+    width: 70%;
+  }
+
+  .container main .block2 .content2 {
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  .container main .block2 .content2 .card {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .container nav {
+    justify-content: center;
+  }
+
+  .container nav .navLinks li a {
+    font-size: 16px;
+  }
+  .container nav .logo {
+    display: none;
+  }
+
+  .container header .conTitle {
+    width: 60%;
+  }
+
+  .container header .conTitle h1 {
+    font-size: 2em;
+  }
+
+  .container header .conTitle h2 {
+    font-size: 1em;
+  }
+  
+  .container main .block1 .content1 .card {
+    width: 300px;
+    flex-direction: column;
+    height: 380px;
+  }
+
+  .container main .block2 .title {
+    font-size: 2rem;
+  }
+  
+  .container main .block2 .content2 {
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  .container main .block2 .content2 .card {
+    width: 300px;
+    height: 200px;
+  }
+
+  .container main .block3 .content3 {
+    width: 90%;
+  }
+
+  .container main .block3 .title {
+    font-size: 1.7rem;
+  }
+
+  .container main .block3 .content3 ol li h4 {
+    font-size: .9rem;
+  }
+
+  .container .credits {
+    flex-direction: column;
+  }
+
+  .container .credits .names {
+    margin: 0 0 15px 0;
+  }
+
+  .container .credits .names h5 {
+    font-size: 15px;
+  }
+
+  .container .credits .names ol {
+    font-size: 14px;
+  }
+
+  .container .credits .ie img {
+    width: 100px;
+    height: 100px;
+  }
+}
